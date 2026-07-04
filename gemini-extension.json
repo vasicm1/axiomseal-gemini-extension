@@ -1,0 +1,15 @@
+{
+  "name": "axiomseal",
+  "version": "1.0.0",
+  "description": "Verified AI memory with cryptographic integrity — 15 validation tests, ethics scoring, SHA-512 hash chain, bi-temporal queries. EU/Swiss hosted.",
+  "mcpServers": {
+    "axiomseal": {
+      "httpUrl": "https://mcp.axiomseal.com/mcp/",
+      "headers": {
+        "Authorization": "Bearer $AXIOMSEAL_API_KEY"
+      },
+      "timeout": 30000
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
